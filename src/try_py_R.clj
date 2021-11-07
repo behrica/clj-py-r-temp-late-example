@@ -8,6 +8,7 @@
 ;;;  python
 (require-python '[os :as os])
 (os/getcwd)
+(os/listdir)
 
 (require-python '[numpy :as np])
 
