@@ -1,6 +1,10 @@
 image:
   file: .gitpod.Dockerfile
 
+ports:
+  - port: 12345
+    onOpen: ignore
+    
 vscode:
   extensions:
     - betterthantomorrow.calva
